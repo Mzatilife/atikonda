@@ -3,8 +3,10 @@ session_start();
 include_once "classes/profilecontr.class.php";
 include_once "classes/blogcontr.class.php";
 include_once "classes/gallerycontr.class.php";
+include_once "classes/manageusercontr.class.php";
 $blog = new BlogContr;
 $profile = new ProfileContr;
+$user = new ManageUserContr;
 $gallery = new GalleryContr;
 if (isset($_GET['blog_id'])) {
   $_SESSION['blog_id'] = $_GET['blog_id'];
@@ -47,7 +49,7 @@ if (isset($_GET['blog_id'])) {
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.html">DR ATIKONDA MTENJE</a></h1>
+      <h1><a href="index.php">DR A. MTENJE</a></h1>
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
@@ -62,8 +64,9 @@ if (isset($_GET['blog_id'])) {
           <li><a class="nav-link" href="#resume">RESUME</a></li>
           <li><a class="nav-link" href="#blog">BLOG</a></li>
           <li><a class="nav-link" href="#gallery">GALLERY</a></li>
+          <li><a class="nav-link" href="./shop.php">ATI'S PLANTERS</a></li>
           <li><a class="nav-link" href="#contact">CONTACT</a></li>
-          <li><a class="nav-link" href="./admin/index.php">LOGIN</a></li>
+          <li><a class="nav-link" href="./admin/index.php">ADMIN</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -480,6 +483,12 @@ if (isset($_GET['blog_id'])) {
               (School of Oriental and African Studies)
             </p>
           </div>
+          <div class="pb-0 text-center">
+            <?php
+            $row = $user->viewCV();
+            ?>
+            <a href="./img/CVs/<?php echo $row['cv'] ?>" class="btn btn-dark">Download CV</a>
+          </div>
         </div>
       </div>
     </div>
@@ -762,16 +771,20 @@ if (isset($_GET['blog_id'])) {
 
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>atimtenje@gmail.com</p>
+            <a href="mailto:atimtenje@gmail.com">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>atimtenje@gmail.com</p>
+            </a>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call / Whatsapp</h3>
-            <p>+265 885 561 882</p>
+            <a href="https://wa.me/0885561882">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call / Whatsapp</h3>
+              <p>+265 885 561 882</p>
+            </a>
           </div>
         </div>
       </div>

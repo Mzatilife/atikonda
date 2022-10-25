@@ -181,5 +181,56 @@ class ManageUser extends Dbh
             return $msg = "Error, you can't change the password!";
         }
     }
-    
+
+    // UPLOADING CV
+    protected function verifiesCV($cv)
+    {
+        $sql = "SELECT * FROM `curriculum_vitae`";
+        $stmt = $this->connect()->query($sql);
+        $result = $stmt->rowCount();
+
+        if ($result == 0) {
+            return $this->uploadCv($cv);
+        } else {
+            return $this->updateCv($cv);
+        }
+    }
+
+    protected function uploadCv($cv)
+    {
+        $sql1 = "INSERT INTO curriculum_vitae (`cv`) VALUES (?)";
+        $stmt1 = $this->connect()->prepare($sql1);
+        $result = $stmt1->execute([$cv]);
+
+        if ($result) {
+            return $msg = "CV uploaded!";
+        } else {
+            return $msg = "Error, something went wrong!";
+        }
+    }
+
+    protected function updateCv($cv)
+    {
+        $sql = "SELECT * FROM `curriculum_vitae` LIMIT 1";
+        $stmt = $this->connect()->query($sql);
+        $row = $stmt->fetch();
+        unlink("../img/CVs/" . $row['cv']);
+
+        $sql1 = "UPDATE curriculum_vitae SET `cv` = ?";
+        $stmt1 = $this->connect()->prepare($sql1);
+        $result = $stmt1->execute([$cv]);
+
+        if ($result) {
+            return $msg = "CV updated!";
+        } else {
+            return $msg = "Error, something went wrong!";
+        }
+    }
+
+    protected function viewsCV()
+    {
+        $sql = "SELECT * FROM `curriculum_vitae` LIMIT 1";
+        $stmt = $this->connect()->query($sql);
+        return $stmt->fetch();
+    }
 }

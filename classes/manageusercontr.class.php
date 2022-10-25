@@ -60,4 +60,16 @@ class ManageUserContr extends ManageUser
     {
         return $this->changesPassword($user_id, $old_pass, $new_pass);
     }
+
+    // This function uploads CV
+    public function verifyCV($cv)
+    {
+        return $this->verifiesCV($cv);
+    }
+
+    // This function views CV
+    public function viewCV()
+    {
+        return $this->viewsCV();
+    }
 }

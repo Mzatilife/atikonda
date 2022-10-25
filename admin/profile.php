@@ -24,6 +24,16 @@ if (isset($_POST['save'])) {
     $msg = $user->changePassword($user_id, $old_password, $new_password);
   }
 }
+
+
+if (isset($_POST['upload_cv'])) {
+  $cv = $_FILES['cv']['name'];
+  $cv_tmp = $_FILES['cv']['tmp_name'];
+
+  move_uploaded_file($cv_tmp, "../img/CVs/$cv");
+
+  $msg = $user->verifyCV($cv);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,38 +92,74 @@ if (isset($_POST['save'])) {
             <div class="my-4">
               <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Change Password</a>
+                  <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Upload CV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Change Password</a>
                 </li>
               </ul>
-              <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
-                <div class="row mb-4">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="inputPassword4">Old Password</label>
-                      <input type="password" name="oldPass" class="form-control" id="inputPassword5" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword5">New Password</label>
-                      <input type="password" name="newPass" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="password2" onkeyup="checkPass();" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword6">Confirm Password</label>
-                      <input type="password" name="conPass" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="confirm2" onkeyup="checkPass();" required>
-                    </div>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="alert alert-info fade show mt-3" role="alert">
+                    <?php
+                    $row = $user->viewCV();
+
+                    $date = strtotime($row['upload_on']);
+                    $date = date("d F Y, h:i a", $date);
+
+                    echo "Curriculum vitae, last updated on " . $date;
+                    ?>
                   </div>
-                  <div class="col-md-6">
-                    <p class="mb-2">Password requirements</p>
-                    <p class="small text-muted mb-2"> To create a new password, you have to meet all of the following requirements: </p>
-                    <ul class="small text-muted pl-4 mb-0">
-                      <li> Minimum 8 character </li>
-                      <li>At least one special character</li>
-                      <li>At least one number</li>
-                      <li>Can’t be the same as a previous password </li>
-                    </ul>
-                  </div>
+                  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" enctype="multipart/form-data">
+                    <div class="form-row">
+                      <!-- .col -->
+                      <div class="col-md-12 form-group mb-3">
+                        <label for="customFile">Curriculum Vitae <span class="text-danger">*</span></label>
+                        <div class="custom-file">
+                          <input type="file" name="cv" class="custom-file-input" id="customFile" required>
+                          <label class="custom-file-label" for="customFile">upload cv</label>
+                        </div>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please upload CV! </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <button type="submit" name="upload_cv" class="btn btn-info">upload CV</button>
+                    </div>
+                  </form>
                 </div>
-                <button type="submit" name="save" class="btn btn-info">Save Change</button>
-              </form>
+                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+                    <div class="row mb-4">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="inputPassword4">Old Password</label>
+                          <input type="password" name="oldPass" class="form-control" id="inputPassword5" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPassword5">New Password</label>
+                          <input type="password" name="newPass" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="password2" onkeyup="checkPass();" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputPassword6">Confirm Password</label>
+                          <input type="password" name="conPass" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="confirm2" onkeyup="checkPass();" required>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <p class="mb-2">Password requirements</p>
+                        <p class="small text-muted mb-2"> To create a new password, you have to meet all of the following requirements: </p>
+                        <ul class="small text-muted pl-4 mb-0">
+                          <li> Minimum 8 character </li>
+                          <li>At least one special character</li>
+                          <li>At least one number</li>
+                          <li>Can’t be the same as a previous password </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <button type="submit" name="save" class="btn btn-info">Save Change</button>
+                  </form>
+                </div>
+              </div>
             </div> <!-- /.card-body -->
           </div> <!-- /.col-12 -->
         </div> <!-- .row -->
@@ -167,6 +213,13 @@ if (isset($_POST['save'])) {
     }
     gtag('js', new Date());
     gtag('config', 'UA-56159088-1');
+  </script>
+
+  <script type="application/javascript">
+    $('input[type="file"]').change(function(e) {
+      var fileName = e.target.files[0].name;
+      $('.custom-file-label').html(fileName);
+    });
   </script>
 </body>
 

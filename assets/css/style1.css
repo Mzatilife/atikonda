@@ -5,18 +5,18 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: #E26868;
   text-decoration: none;
 }
 
 a:hover {
-  color: #18d26e;
+  color: #E26868;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
-  color: #18d26e;
+  color: #E26868;
 }
 
 /*--------------------------------------------------------------
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #18d26e;
+  background: #E26868;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #18d26e;
+  background: #E26868;
   color: #fff;
 }
 .back-to-top.active {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(10, 10, 10, 0.925);
+  background: rgba(216, 217, 207, 0.8);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header .logo a {
-  color: #18d26e;}
+  color: #E26868;}
 
 
 #header .logo img {
@@ -89,10 +89,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .header-social-links {
   margin-left: 20px;
-  border-left: 1px solid #e9e4e4;
+  border-left: 1px solid #E26868;
 }
 .header-social-links a {
-  color: #e4e0e0;
+  color: #E26868;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .header-social-links a:hover {
-  color: #18d26e;
+  color: #FF8787;
 }
 @media (max-width: 768px) {
   .header-social-links {
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: rgb(216, 209, 209);
+  color: #FF8787;
   white-space: nowrap;
   text-transform: uppercase;
   transition: 0.3s;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #18d26e;
+  color: #FF8787;
 }
 
 
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgb(240, 235, 235);
+  color: #E26868;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(216, 217, 207, 0.8);
   transition: 0.3s;
   z-index: 999;
 }
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(226, 104, 104, 0.2);
 
 }
 .navbar-mobile a, .navbar-mobile a:focus {
@@ -230,7 +230,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgba(255, 255, 255, 0.08)}
+  background-color: rgba(216, 217, 207, 0.8)}
 
 .section-title {
   text-align: center;
@@ -270,7 +270,7 @@ section {
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 400;
-  color: #fff;
+  color: #EDEDED;
   text-transform: uppercase;
 }
 .breadcrumbs ol {
@@ -279,10 +279,10 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #18d26e;
+  color: #EDEDED;
 }
 .breadcrumbs ol a {
-  color: #18d26e;
+  color: #EDEDED;
 }
 .breadcrumbs ol li + li {
   padding-left: 10px;
@@ -290,7 +290,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fff;
+  color: #E26868;
   content: "/";
 }
 @media (max-width: 991px) {
@@ -314,14 +314,14 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  background-color: #444444;
+  background-color: #EDEDED;
   padding: 40px 0 20px 0;
 }
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
-  box-shadow: 0 4px 16px rgba(238, 236, 236, 0.1);
-  color: #f3f0ef;
+  box-shadow: 0 4px 16px rgba(27, 36, 48 ,0.1);
+  color: #1B2430;
 }
 .blog .entry .entry-img {
   max-height: 440px;
@@ -335,15 +335,15 @@ section {
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #18d26e;
+  color: #1B2430;;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
-  color: #18d26e;
+  color: #1B2430;;
 }
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #18d26e;
+  color: #1B2430;;
 }
 
 .blog .entry .entry-meta ul {
@@ -378,7 +378,7 @@ section {
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #18d26e;
+  background: #E26868;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -386,7 +386,7 @@ section {
   border-radius: 4px;
 }
 .blog .entry .entry-content .read-more a:hover {
-  background: #18d26e;
+  background: #E26868;
 }
 .blog .entry .entry-content h3 {
   font-size: 22px;
@@ -400,7 +400,7 @@ section {
 
 .more_posts a{
   display: inline-block;
-  background: #18d26e;
+  background: #E26868;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -423,7 +423,7 @@ section {
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
-  color: #18d26e;
+  color: #E26868;
 }
 .blog .entry .entry-footer .cats {
   list-style: none;
@@ -482,7 +482,7 @@ section {
 }
 .blog .blog-author p {
   font-style: italic;
-  color: #bfb9b6;
+  color: #1B2430;
 }
 .blog .blog-comments {
   margin-bottom: 30px;
@@ -591,7 +591,7 @@ section {
   justify-content: center;
 }
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #18d26e;
+  background: #E26868;
 }
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
@@ -599,14 +599,14 @@ section {
 .blog .sidebar {
   padding: 30px;
   margin: 0 0 60px 20px;
-  box-shadow: 0 4px 16px #5e5e5e;
+  box-shadow: 0 4px 16px #D8D9CF;
 }
 .blog .sidebar .sidebar-title {
   font-size: 20px;
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #18d26e;
+  color: #E26868;
   position: relative;
 }
 .blog .sidebar .sidebar-item {
@@ -654,15 +654,15 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: rgb(231, 226, 226);
+  color: #1B2430;
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
-  color: #18d26e;
+  color: #51557E
 }
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
-  color: #dfdcdb;
+  color: #1B2430;
   font-size: 14px;
 }
 .blog .sidebar .recent-posts .post-item + .post-item {
@@ -678,18 +678,18 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: rgb(236, 233, 233);
+  color: #1B2430;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #18d26e;
+  color: #51557E;
 }
 .blog .sidebar .recent-posts time {
   display: block;
   margin-left: 95px;
   font-style: italic;
   font-size: 14px;
-  color: #e4e0de;
+  color: #1B2430;
 }
 .blog .sidebar .tags {
   margin-bottom: -10px;

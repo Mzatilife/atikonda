@@ -75,5 +75,22 @@
                 </a>
             </li>
         </ul>
+        <p class="text-muted nav-heading mt-4 mb-1">
+            <span>Other Operations</span>
+        </p>
+        <ul class="navbar-nav flex-fill w-100 mb-2">
+        <li class="nav-item w-100">
+                <a class="nav-link" href="planters_categories.php">
+                    <i class="fe fe-layers fe-16"></i>
+                    <span class="ml-3 item-text">Plant Categories</span>
+                </a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="atiplanters.php">
+                    <i class="fe fe-plant fe-16"></i>
+                    <span class="ml-3 item-text">Ati's Planters</span>
+                </a>
+            </li>
+        </ul>
     </nav>
 </aside>
