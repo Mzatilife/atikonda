@@ -87,7 +87,7 @@ h6 {
 }
 
 #header h2 span {
-  color: #040303;
+  color: rgba(27, 36, 48, 0.7);
   border-bottom: 2px solid #E26868;
   padding-bottom: 6px;
 }
@@ -213,10 +213,11 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  color:rgba(21, 21, 21, 0.7);
+  /* font-weight: 400; */
+  color:rgb(21, 21, 21);
   white-space: nowrap;
   transition: 0.3s;
 }
