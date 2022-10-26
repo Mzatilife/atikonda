@@ -1,9 +1,9 @@
 <?php
 class Dbh{
 	private $host = "localhost";
-	private $user = "root";
-	private $pwd = "";
-	private $dbname = "atikonda";
+	private $user = "u289533873_dratikonda";
+	private $pwd = "8085@Must.Upie";
+	private $dbname = "u289533873_atikonda";
 
 	protected function connect(){
 	$dsn = 'mysql:host=' . $this->host . ';dbname='. $this->dbname;

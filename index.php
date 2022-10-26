@@ -49,7 +49,7 @@ if (isset($_GET['blog_id'])) {
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.php">DR A. M. MKOCHI</a></h1>
+      <h1><a href="index.php">DR A. MTENJE</a></h1>
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
@@ -58,15 +58,15 @@ if (isset($_GET['blog_id'])) {
       </h2>
 
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">HOME</a></li>
+        <ul style="background-color:#E26868;">
+          <li style="padding: 14px 16px;"><a class="nav-link active" href="#header">HOME</a></li>
           <li><a class="nav-link" href="#about">ABOUT</a></li>
           <li><a class="nav-link" href="#resume">RESUME</a></li>
           <li><a class="nav-link" href="#blog">BLOG</a></li>
           <li><a class="nav-link" href="#gallery">GALLERY</a></li>
           <li><a class="nav-link" href="./shop.php">ATI'S PLANTERS</a></li>
           <li><a class="nav-link" href="#contact">CONTACT</a></li>
-          <li><a class="nav-link" href="./admin/index.php">ADMIN</a></li>
+          <li style="padding: 14px 16px;"><a class="nav-link" href="./admin/index.php">ADMIN</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

@@ -47,7 +47,7 @@ if (isset($_POST['login'])) {
   <link rel="stylesheet" href="css/app-dark.css" id="darkTheme" disabled>
 </head>
 
-<body class="light" style="background-color: #E26868;">
+<body class="light bg-secondary">
   <div class="wrapper" style="height:500px">
     <div class="row align-items-center h-100">
       <form class="col-lg-3 col-md-4 col-10 mx-auto text-center bg-light rounded" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
