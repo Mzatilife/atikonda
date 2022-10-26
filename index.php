@@ -20,7 +20,7 @@ if (isset($_GET['blog_id'])) {
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dr. Atikonda Mtenje-Mkochi</title>
+  <title>Dr. Atikonda Mtenje Mkochi</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@ if (isset($_GET['blog_id'])) {
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.php">DR A. MTENJE</a></h1>
+      <h1><a href="index.php">DR A. M. MKOCHI</a></h1>
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
@@ -88,7 +88,7 @@ if (isset($_GET['blog_id'])) {
     <div class="about-me container">
 
       <div class="section-title">
-        <h2>Dr. Atikonda Mtenje-Mkochi</h2>
+        <h2>Dr. Atikonda Mtenje Mkochi</h2>
         <p>Learn More</p>
       </div>
 
@@ -222,123 +222,119 @@ if (isset($_GET['blog_id'])) {
     <!-- ======= Interests ======= -->
     <div class="interests container">
 
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
+    <div class="section-title">
+       <h2>Interests</h2>
+    </div>
 
-      <div class="row" data-aos="fade-up" data-aos-delay="80">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Linguistics</h3>
-          </div>
+<div class="row" data-aos="fade-up" data-aos-delay="80">
+  <div class="col-lg-3 col-md-4">
+    <div class="icon-box">
+      <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
+      <h3>Bantu and African language studies</h3>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+    <div class="icon-box">
+      <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+      <h3>Phonology and morpho-syntax</h3>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+    <div class="icon-box">
+      <i class="ri-bar-chart-box-line"style="color: #e80368;"></i>
+      <h3>language description and theory</h3>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+    <div class="icon-box">
+      <i class="ri-bar-chart-box-line" style="color: #31e803;"></i>
+      <h3>linguistic variation</h3>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+    <div class="icon-box">
+      <i class="ri-bar-chart-box-line"style="color: #5578ff;"></i>
+      <h3>language and development</h3>
+    </div>
+  </div>
+</div>
+</div><!-- End Interests -->
+
+     <!-- ======= Recent Posts ======= -->
+     <div class="testimonials container">
+
+<div class="section-title">
+  <h2>Recent Posts</h2>
+</div>
+
+<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <!-- <h3 class="text-center">African Culture</h3> -->
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Southern African Linguistics Network online seminar on 20 August 2021 by Dr Atikonda Mtenje-Mkochi (MUST): Aspects of phonology of Cinyiha and the linguistic relationship with its neighbouring languages.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="https://www.youtube.com/watch?v=3TR5XTfUs08" class="btn btn-success">Read More</a>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Research</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Teaching</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #31e803;"></i>
-            <h3>Leadership.</h3>
-          </div>
+      </div>
+    </div><!-- End testimonial item -->
+
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          I am currently working on phonological and morpho-syntactic micro-variation patterns of closely related languages and language varieties in Malawi. I am also working on a project which is reinventing Malawian folktales for environment and climate change communication.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="https://www.futureafrica.science/index.php/profile/atikonda-mtenje-mkochi-840" class="btn btn-success">Read More</a>
         </div>
       </div>
-    </div><!-- End Interests -->
+    </div><!-- End testimonial item -->
 
-    <!-- ======= Recent Posts ======= -->
-    <!-- <div class="testimonials container">
-
-      <div class="section-title">
-        <h2>Recent Posts</h2>
-      </div>
-
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="#" class="btn btn-success">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="#" class="btn btn-success">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="#" class="btn btn-success">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="#" class="btn btn-success">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <div class="d-flex align-items-center justify-content-center">
-                <a href="#" class="btn btn-success">Read More</a>
-              </div>
-            </div>
-          </div>
-
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Cilambya is a variety that is on a dialect continuum with Cisukwa and Cindali. It is also a cross border variety that is spoken in Malawi, Tanzania and Zambia. It was classified as belonging to Zone M by Guthrie (1967/71).
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="https://www.researchgate.net/publication/331630131_A_grammatical_sketch_of_Cilambya_The_Malawian_variant" class="btn btn-success">Read More</a>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
+    </div><!-- End testimonial item -->
 
-      <div class="owl-carousel testimonials-carousel">
-
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+         Atikonda Mtenje-Mkochi from Malawi is speaking on climate change in Malawi and the addressing of the issue to children. Project is trying to do that by using folk tales from Malawi #humanities_2020
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="https://twitter.com/german_u15/status/1171767738240516101" class="btn btn-success">Read More</a>
+        </div>
       </div>
+    </div><!-- End testimonial item -->
 
-    </div> -->
-    <!-- End Testimonials  -->
+    <!-- <div class="swiper-slide">
+      <div class="testimonial-item">
+        <p>
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="#" class="btn btn-success">Read More</a>
+        </div>
+      </div>
+    </div> End testimonial item -->
 
   </section><!-- End About Section -->
 
