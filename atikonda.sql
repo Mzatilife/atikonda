@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 02, 2022 at 08:56 PM
+-- Generation Time: Oct 26, 2022 at 08:11 PM
 -- Server version: 5.7.36
 -- PHP Version: 8.1.0
 
@@ -38,14 +38,15 @@ CREATE TABLE IF NOT EXISTS `blogs` (
   `content` text,
   `date` date DEFAULT NULL,
   PRIMARY KEY (`blog_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `blogs`
 --
 
 INSERT INTO `blogs` (`blog_id`, `category_id`, `title`, `author`, `image`, `content`, `date`) VALUES
-(16, 3, 'Testing the app', 'Mahala Mkwepu', '0bcf891663979520.jpg', '<blockquote><p>This book would not be possible without the existence of my parents, the Internet, and JavaScript.<br>Also, words cannot express my gratitude to Ryan Dahl and TJ Holowaychuk.</p></blockquote><p><br>In addition to that, special thanks to General Assembly, pariSOMA and Marakana for giving me<br>the opportunities to test my instructions out in the wild; to Peter Armstrong for LeanPub; to Sahil</p><ul><li>Lavingia for Gumroad; to Daring Fireball for Markdown; to Metaclassy for Byword; to Fred Zirdung<br>for advice; and to Rachmad Adv for the splendid cover!</li></ul><figure class=\"table\"><table><tbody><tr><td><strong>Malawi</strong></td><td><strong>Blantyre</strong></td><td><strong>Lilongwe</strong></td></tr><tr><td>Mahala</td><td>Chindikani</td><td>Muwemi</td></tr></tbody></table></figure>', '2022-09-23');
+(16, 3, 'Testing the app', 'Mahala Mkwepu', '0bcf891663979520.jpg', '<blockquote><p>This book would not be possible without the existence of my parents, the Internet, and JavaScript.<br>Also, words cannot express my gratitude to Ryan Dahl and TJ Holowaychuk.</p></blockquote><p><br>In addition to that, special thanks to General Assembly, pariSOMA and Marakana for giving me<br>the opportunities to test my instructions out in the wild; to Peter Armstrong for LeanPub; to Sahil</p><ul><li>Lavingia for Gumroad; to Daring Fireball for Markdown; to Metaclassy for Byword; to Fred Zirdung<br>for advice; and to Rachmad Adv for the splendid cover!</li></ul><figure class=\"table\"><table><tbody><tr><td><strong>Malawi</strong></td><td><strong>Blantyre</strong></td><td><strong>Lilongwe</strong></td></tr><tr><td>Mahala</td><td>Chindikani</td><td>Muwemi</td></tr></tbody></table></figure>', '2022-09-23'),
+(17, 4, 'Mahala', 'Mahala Mkwepu', 'work31664753345.jpeg', '<p>hjhjhjhj</p>', '2022-10-02');
 
 -- --------------------------------------------------------
 
@@ -86,6 +87,27 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `date` datetime DEFAULT NULL,
   PRIMARY KEY (`comment_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `curriculum_vitae`
+--
+
+DROP TABLE IF EXISTS `curriculum_vitae`;
+CREATE TABLE IF NOT EXISTS `curriculum_vitae` (
+  `cv_id` int(11) NOT NULL AUTO_INCREMENT,
+  `cv` varchar(500) DEFAULT NULL,
+  `upload_on` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`cv_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `curriculum_vitae`
+--
+
+INSERT INTO `curriculum_vitae` (`cv_id`, `cv`, `upload_on`) VALUES
+(1, 'Auguste Comte ( PDFDrive ).pdf', '2022-10-25 04:20:46');
 
 -- --------------------------------------------------------
 
@@ -190,6 +212,54 @@ CREATE TABLE IF NOT EXISTS `gallery_categories` (
 INSERT INTO `gallery_categories` (`category_id`, `category_name`, `upload_date`) VALUES
 (5, 'Work', '2022-10-02'),
 (4, 'Personal', '2022-10-02');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `plants`
+--
+
+DROP TABLE IF EXISTS `plants`;
+CREATE TABLE IF NOT EXISTS `plants` (
+  `plant_id` int(11) NOT NULL AUTO_INCREMENT,
+  `category_id` int(11) DEFAULT NULL,
+  `image` varchar(250) DEFAULT NULL,
+  `plant_name` text,
+  `plant_description` text,
+  `uploaded_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`plant_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `plants`
+--
+
+INSERT INTO `plants` (`plant_id`, `category_id`, `image`, `plant_name`, `plant_description`, `uploaded_date`) VALUES
+(2, 3, '(33)1666667789.jpg', 'Roses', '<p>Very nice flowers for sure</p>', '2022-10-25 03:04:59'),
+(3, 3, '(34)1666678591.jpg', 'Daisy', '<p>This is nice</p>', '2022-10-25 06:16:31'),
+(4, 3, '(19)1666678616.jpg', 'Flowers', '<p>dope flowers</p>', '2022-10-25 06:16:57'),
+(5, 3, '(64)1666678685.jpg', 'Maize lol', '<p>This is the greatest</p>', '2022-10-25 06:18:06');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `plant_categories`
+--
+
+DROP TABLE IF EXISTS `plant_categories`;
+CREATE TABLE IF NOT EXISTS `plant_categories` (
+  `category_id` int(11) NOT NULL AUTO_INCREMENT,
+  `category_name` varchar(500) DEFAULT NULL,
+  `upload_date` date DEFAULT NULL,
+  PRIMARY KEY (`category_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `plant_categories`
+--
+
+INSERT INTO `plant_categories` (`category_id`, `category_name`, `upload_date`) VALUES
+(3, 'Agriculture', '2022-10-24');
 
 -- --------------------------------------------------------
 
