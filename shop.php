@@ -124,7 +124,7 @@ $profile = new ProfileContr;
                             foreach ($row as $rw) {
                             ?>
                                 <!-- Single Product Area -->
-                                <div class="col-sm-12 col-md-3">
+                                <div class="col-sm-16 col-md-6">
                                     <div class="single-portfolio">
                                         <a href="./img/plants/<?php echo $rw['image'] ?>"
                                                 class="image-link" >
