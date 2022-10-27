@@ -797,7 +797,20 @@ img {
     .single-product-area:hover .product-img .product-meta {
       visibility: visible;
       opacity: 1; }
-/*portofolio*/
+/*portfolio*/
+.portfolio-area {
+  background: #ddd;
+}
+.portfolio-area .portfolio-menu li {
+  border: 1px solid #ffa600;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+.portfolio-menu li.nav-item.active {
+  background: #ffa600;
+}
 .single-portfolio {
   position: relative;
   margin: 15px 0;
