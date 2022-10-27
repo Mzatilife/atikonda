@@ -49,7 +49,7 @@ if (isset($_GET['blog_id'])) {
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.php">DR A. M. MKOCHI atiko</a></h1>
+      <h1><a href="index.php">DR A. M. MKOCHI</a></h1>
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
