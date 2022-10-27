@@ -147,6 +147,23 @@ $profile = new ProfileContr;
                                         </div>  
                                     
                                 </section>
+                                <section id="portfolio" class="portfolio-area">
+      
+                                    <div class="container">
+                                        
+                                        <div class="row portfolio">
+                                        
+                                        <div class="col-sm-12 col-md-3 T-Shirt">
+                                            <div class="single-portfolio">
+                                                <a href="./img/plants/<?php echo $rw['image'] ?>"
+                                                        class="image-link" >
+                                                <img src="./img/plants/<?php echo $rw['image'] ?>">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </section>
                             <?php
                             }
 
