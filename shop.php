@@ -126,26 +126,24 @@ $profile = new ProfileContr;
                                 <!-- Single Product Area -->
                                 
                                 
-                               
-
                                 
                                         
-                                            <div class="col-sm-12 col-md-3">
-                                                <div class="service-area-single-box">
-                                                    <img src="./img/plants/<?php echo $rw['image'] ?>">
-                                                
-                                                    <div class="card">
-                                                        
-                                                    </div>
-                                                </div>
-                                                <div class="product-info mt-15 text-center">
+                                        <div class="col-sm-12 col-md-3 T-Shirt">
+                                            <div class="single-portfolio">
+                                                <a href="./img/plants/<?php echo $rw['image'] ?>"
+                                                        class="image-link" >
+                                                <img src="./img/plants/<?php echo $rw['image'] ?>">
+                                                </a>
+                                            </div>
+                                            <div class="product-info mt-15 text-center">
                                                     <p><?php echo $rw['plant_description'] ?></p>
                                                 
                                                     <h6><?php echo $rw['plant_name'] ?></h6>
                                                 </div>
-                                            </div>
+                                        </div>
                                         
-                                    
+
+                                
 
                             <?php
                             }
