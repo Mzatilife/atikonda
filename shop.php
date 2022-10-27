@@ -148,6 +148,29 @@ $profile = new ProfileContr;
                                         </div>
                                     </div>
                                 </section>
+
+                                <section id="services" class="service-area py-5">
+                                    <h1 class="text-center pb-5">My Service</h1>
+                                    <div class="container">
+                                        <div class="row" id="service-area-wapper">
+                                            <div class="col-sm-12 col-md-3">
+                                                <div class="service-area-single-box">
+                                                    <img src="./img/plants/<?php echo $rw['image'] ?>">
+                                                
+                                                    <div class="card">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="product-info mt-15 text-center">
+                                                    <p><?php echo $rw['plant_description'] ?></p>
+                                                
+                                                    <h6><?php echo $rw['plant_name'] ?></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
                             <?php
                             }
 
