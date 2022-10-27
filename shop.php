@@ -125,28 +125,7 @@ $profile = new ProfileContr;
                             ?>
                                 <!-- Single Product Area -->
                                 
-                                <section id="portfolio" class="portfolio-area">
-                                   
-                                    
-                                        <div class="row portfolio">
-                                            <div class="col-12 col-sm-6 col-lg-4">
-                                                <div class="single-portfolio mb-50">
-                                                    <a
-                                                        href="./img/plants/<?php echo $rw['image'] ?>"
-                                                        class="image-link"
-                                                    >
-                                                    <img src="./img/plants/<?php echo $rw['image'] ?>">
-                                                    </a>
-                                                </div>
-                                                <div class="product-info mt-15 text-center">
-                                                    <p><?php echo $rw['plant_description'] ?></p>
-                                                
-                                                    <h6><?php echo $rw['plant_name'] ?></h6>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    
-                                </section>
+                                
                                 <section id="portfolio" class="portfolio-area">
       
                                     <div class="container">
@@ -160,6 +139,11 @@ $profile = new ProfileContr;
                                                 <img src="./img/plants/<?php echo $rw['image'] ?>">
                                                 </a>
                                             </div>
+                                            <div class="product-info mt-15 text-center">
+                                                    <p><?php echo $rw['plant_description'] ?></p>
+                                                
+                                                    <h6><?php echo $rw['plant_name'] ?></h6>
+                                                </div>
                                         </div>
                                         </div>
                                     </div>
