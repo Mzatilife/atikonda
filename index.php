@@ -53,7 +53,7 @@ if (isset($_GET['blog_id'])) {
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
-          <p><span class="typed" data-typed-items=" Head of Department for Language and Communication Studies at MUST, CEO of Ati's planters, Linguistics Senior Lecturer, Language Consultant"></span></p>
+          <p><span class="typed" data-typed-items=" HOD for Language and Communication Studies at MUST, CEO of Ati's planters, Linguistics Senior Lecturer, Language Consultant"></span></p>
         </div>
       </h2>
 
