@@ -129,7 +129,7 @@ $profile = new ProfileContr;
                                
 
                                 
-                                        <div class="row" id="service-area-wapper">
+                                        
                                             <div class="col-sm-12 col-md-3">
                                                 <div class="service-area-single-box">
                                                     <img src="./img/plants/<?php echo $rw['image'] ?>">
@@ -144,7 +144,7 @@ $profile = new ProfileContr;
                                                     <h6><?php echo $rw['plant_name'] ?></h6>
                                                 </div>
                                             </div>
-                                        </div>
+                                        
                                     
 
                             <?php
