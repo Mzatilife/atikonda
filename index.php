@@ -58,7 +58,7 @@ if (isset($_GET['blog_id'])) {
       </h2>
 
       <nav id="navbar" class="navbar">
-        <ul style="background-color:#2962ff;">
+        <ul>
           <li style="padding: 14px 16px;"><a class="nav-link active" href="#header">HOME</a></li>
           <li><a class="nav-link" href="#about">ABOUT</a></li>
           <li><a class="nav-link" href="#resume">RESUME</a></li>

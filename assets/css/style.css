@@ -29,12 +29,12 @@ body::before {
 }
 
 a {
-  color:#FF8787;
+  color:#2962FF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E26868;
+  color: #2962FF;
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: #E26868;
+  color: #2962FF;
   line-height: 1;
   display: inline-block;
 }
@@ -88,7 +88,7 @@ h6 {
 
 #header h2 span {
   color: rgba(27, 36, 48, 0.7);
-  border-bottom: 2px solid #E26868;
+  border-bottom: 2px solid #2962FF;
   padding-bottom: 6px;
 }
 
@@ -107,7 +107,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 135, 135, 0.6);
+  background: rgba(41,98,255, 0.6);
   color: #EDEDED;
   line-height: 1;
   margin-right: 8px;
@@ -117,7 +117,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #E26868;
+  background: #2962FF;
 }
 
 @media (max-width: 992px) {
@@ -189,7 +189,6 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
-  background-color: #EDEDED;
 }
 
 .navbar ul {
@@ -198,7 +197,8 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
-  background-color: #333;
+  background-color: rgba(41,98,255, 0.6);
+  border-radius: 10px;
 }
 
 .navbar li {
@@ -239,7 +239,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #747ba4;
+  /* background-color: #747ba4; */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -383,7 +383,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #E26868;
+  background: #2962FF;
   margin: 4px 10px;
 }
 
@@ -394,7 +394,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #E26868;
+  color: #2962FF;
 }
 
 /*--------------------------------------------------------------
@@ -517,7 +517,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #E26868;
+  color: #2962FF;
   border-radius: 50px;
   line-height: 0;
 }
@@ -546,7 +546,7 @@ section .container {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #E26868;
+  background: #2962FF;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -560,7 +560,7 @@ section .container {
 }
 
 .back-to-top:hover {
-  background: #E26868;
+  background: #2962FF;
   color: #fff;
 }
 
@@ -603,7 +603,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #FF8787;
+  background-color: #2962FF;
 }
 
 /*--------------------------------------------------------------
@@ -725,7 +725,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #E26868;
+  color: #2962FF;
 }
 
 .resume .resume-item {
@@ -774,7 +774,7 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #E26868;
+  background: #2962FF;
   border: 2px solid #413F42;
 }
 
@@ -882,7 +882,7 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #E26868;
+  color: #2962FF;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -891,7 +891,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  border: 3px solid #E26868;
+  border: 3px solid #2962FF;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -991,7 +991,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #E26868;
+  color: #2962FF;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1085,7 +1085,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #E26868;
+  background-color: #2962FF;
 }
 
 /*--------------------------------------------------------------
@@ -1100,7 +1100,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #E26868;
+  color: #2962FF;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1137,7 +1137,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #E26868;
+  color: #2962FF;
 }
 
 .contact .php-email-form {
@@ -1195,23 +1195,23 @@ section .container {
   background: rgba(237, 237, 237, 0.08);
   border: 0;
   transition: 0.3s;
-  color: #fff;
+  color: rgb(41,98,255);
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  background-color: rgb(226, 104, 104);
+  background-color: rgb(255,255,255);
 }
 
 .contact .php-email-form input::-moz-placeholder,
 .contact .php-email-form textarea::-moz-placeholder {
-  color: rgb(226, 104, 104);
+  color: rgb(41,98,255);
   opacity: 1;
 }
 
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: rgb(226, 104, 104);
+  color: rgb(41,98,255);
   opacity: 1;
 }
 
@@ -1224,7 +1224,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #E26868;
+  background: #2962FF;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1233,7 +1233,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #E26868;
+  background: #2962FF;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1280,7 +1280,7 @@ section .container {
 }
 
 .credits a {
-  color: #E26868;
+  color: #2962FF;
   transition: 0.3s;
 }
 
