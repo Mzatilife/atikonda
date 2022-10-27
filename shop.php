@@ -128,13 +128,12 @@ $profile = new ProfileContr;
                                     <div class="single-product-area mb-50">
                                         <!-- Product Image -->
                                         <div class="product-img">
-                                            <a href="shop-details.html"><img src="./img/plants/<?php echo $rw['image'] ?>" alt=""></a>
+                                            <img src="./img/plants/<?php echo $rw['image'] ?>" alt="">
                                         </div>
                                         <!-- Product Info -->
                                         <div class="product-info mt-15 text-center">
-                                            <a href="shop-details.html">
                                                 <p><?php echo $rw['plant_description'] ?></p>
-                                            </a>
+                                            
                                             <h6><?php echo $rw['plant_name'] ?></h6>
                                         </div>
                                     </div>
