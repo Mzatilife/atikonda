@@ -124,32 +124,19 @@ $profile = new ProfileContr;
                             foreach ($row as $rw) {
                             ?>
                                 <!-- Single Product Area -->
-                                <!--<div class="col-12 col-sm-6 col-lg-4">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <div class="single-product-area mb-50">
-                                        
+                                        <!-- Product Image -->
                                         <div class="product-img">
                                             <a href="shop-details.html"><img src="./img/plants/<?php echo $rw['image'] ?>" alt=""></a>
                                         </div>
-                                        
+                                        <!-- Product Info -->
                                         <div class="product-info mt-15 text-center">
                                             <a href="shop-details.html">
                                                 <p><?php echo $rw['plant_description'] ?></p>
                                             </a>
                                             <h6><?php echo $rw['plant_name'] ?></h6>
                                         </div>
-                                    </div>
-                                </div>-->
-                                <div class="col-12 col-sm-6 col-lg-4" data-wow-delay="0.1s">
-                                    <div class="single-product-area mb-50">
-                                    <img src="./img/plants/<?php echo $rw['image'] ?>" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4 style="color: white;">Rent Management System</h4>
-                                        <p>Web System</p>
-                                        <div>
-                                        <a href="./img/plants/<?php echo $rw['image'] ?>" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                        
-                                        </div>
-                                    </div>
                                     </div>
                                 </div>
                             <?php
