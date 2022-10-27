@@ -130,7 +130,7 @@ $profile = new ProfileContr;
       
                                     <div class="container">
                                         
-                                        <div class="row portfolio">
+                                        <div class="portfolio">
                                         
                                         <div class="col-sm-12 col-md-3 T-Shirt">
                                             <div class="single-portfolio">
