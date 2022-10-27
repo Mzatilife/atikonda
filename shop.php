@@ -130,9 +130,6 @@ $profile = new ProfileContr;
                                         <div class="product-img">
                                             <a href="shop-details.html"><img src="./img/plants/<?php echo $rw['image'] ?>" alt=""></a>
                                         </div>
-                                        <div>
-                                            <a href="./img/plants/<?php echo $rw['image'] ?>" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                        </div>
                                         <!-- Product Info -->
                                         <div class="product-info mt-15 text-center">
                                             <a href="shop-details.html">
