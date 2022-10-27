@@ -149,9 +149,7 @@ $profile = new ProfileContr;
                                     </div>
                                 </section>
 
-                                <section id="services" class="service-area py-5">
-                                    <h1 class="text-center pb-5">My Service</h1>
-                                    <div class="container">
+                                
                                         <div class="row" id="service-area-wapper">
                                             <div class="col-sm-12 col-md-3">
                                                 <div class="service-area-single-box">
@@ -168,8 +166,7 @@ $profile = new ProfileContr;
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </section>
+                                    
 
                             <?php
                             }
