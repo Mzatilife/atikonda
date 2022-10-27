@@ -127,15 +127,9 @@ $profile = new ProfileContr;
                                 <div class="col-12 col-sm-6 col-lg-4">
                                     <div class="single-product-area mb-50">
                                         <!-- Product Image -->
-                                        <div class="product-img" id="preview">
+                                        <div class="product-img">
                                             <a href="shop-details.html"><img src="./img/plants/<?php echo $rw['image'] ?>" alt=""></a>
-                                            <div class="product-meta d-flex">
-                                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
-                                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
-                                                <a href="./img/plants/<?php echo $rw['image'] ?>" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                            </div>
                                         </div>
-                                        
                                         <!-- Product Info -->
                                         <div class="product-info mt-15 text-center">
                                             <a href="shop-details.html">
