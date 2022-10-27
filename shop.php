@@ -124,12 +124,25 @@ $profile = new ProfileContr;
                             foreach ($row as $rw) {
                             ?>
                                 <!-- Single Product Area -->
-                                
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="single-product-area mb-50">
+                                        <!-- Product Image -->
+                                        <div class="product-img">
+                                            <img src="./img/plants/<?php echo $rw['image'] ?>" alt="">
+                                        </div>
+                                        <!-- Product Info -->
+                                        <div class="product-info mt-15 text-center">
+                                                <p><?php echo $rw['plant_description'] ?></p>
+                                            
+                                            <h6><?php echo $rw['plant_name'] ?></h6>
+                                        </div>
+                                    </div>
+                                </div>
                                 <section id="portfolio" class="portfolio-area">
-                                    <h1 class="text-center py-4">Portfolio</h1>
-                                    <div class="container">
+                                   
+                                    
                                         <div class="row portfolio">
-                                            <div class="col-sm-12 col-md-3 T-Shirt">
+                                            <div class="col-sm-12 col-md-3">
                                                 <div class="single-portfolio">
                                                     <a
                                                         href="./img/plants/<?php echo $rw['image'] ?>"
@@ -145,7 +158,7 @@ $profile = new ProfileContr;
                                                 </div>
                                             </div>
                                         </div>  
-                                    </div>
+                                    
                                 </section>
                             <?php
                             }
