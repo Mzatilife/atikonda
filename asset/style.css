@@ -710,17 +710,7 @@ img {
   z-index: 1;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
-  .single-product-area .product-img {
-    position: relative;
-    z-index: 1;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms; }
-    .single-product-area .product-img a {
-      display: block; }
-    .single-product-area .product-img img {
-      position: relative;
-      z-index: 1;
-      width: 100%; }
+  
     .single-product-area .product-img .product-tag a {
       background-color: #429edf;
       border-radius: 2px;
