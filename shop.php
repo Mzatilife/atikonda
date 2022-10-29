@@ -132,8 +132,8 @@ $profile = new ProfileContr;
                                         </a>
                                     </div>
                                     <div class="product-info mt-15 text-center">
-                                            <p><?php echo $rw['plant_description'] ?></p>
                                             <h6><?php echo $rw['plant_name'] ?></h6>
+                                            <p><?php echo $rw['plant_description'] ?></p>              
                                     </div>
                                 </div>
                             <?php
