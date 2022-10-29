@@ -87,7 +87,7 @@
             </li>
             <li class="nav-item w-100">
                 <a class="nav-link" href="atiplanters.php">
-                    <i class="fe fe-plant fe-16"></i>
+                    <i class="fe fe-feather fe-16"></i>
                     <span class="ml-3 item-text">Ati's Planters</span>
                 </a>
             </li>

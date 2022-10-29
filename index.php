@@ -222,108 +222,108 @@ if (isset($_GET['blog_id'])) {
     <!-- ======= Interests ======= -->
     <div class="interests container">
 
-    <div class="section-title">
-       <h2>Interests</h2>
-    </div>
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
 
-<div class="row" data-aos="fade-up" data-aos-delay="80">
-  <div class="col-lg-3 col-md-4">
-    <div class="icon-box">
-      <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
-      <h3>Bantu and African language studies</h3>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-    <div class="icon-box">
-      <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-      <h3>Phonology and morpho-syntax</h3>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-    <div class="icon-box">
-      <i class="ri-bar-chart-box-line"style="color: #e80368;"></i>
-      <h3>language description and theory</h3>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-    <div class="icon-box">
-      <i class="ri-bar-chart-box-line" style="color: #31e803;"></i>
-      <h3>linguistic variation</h3>
-    </div>
-  </div>
-  <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-    <div class="icon-box">
-      <i class="ri-bar-chart-box-line"style="color: #5578ff;"></i>
-      <h3>language and development</h3>
-    </div>
-  </div>
-</div>
-</div><!-- End Interests -->
-
-     <!-- ======= Recent Posts ======= -->
-     <div class="testimonials container">
-
-<div class="section-title">
-  <h2>Recent Posts</h2>
-</div>
-
-<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-  <div class="swiper-wrapper">
-
-    <div class="swiper-slide">
-      <div class="testimonial-item">
-        <!-- <h3 class="text-center">African Culture</h3> -->
-        <p>
-          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-          Southern African Linguistics Network online seminar on 20 August 2021 by Dr Atikonda Mtenje-Mkochi (MUST): Aspects of phonology of Cinyiha and the linguistic relationship with its neighbouring languages.
-          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="https://www.youtube.com/watch?v=3TR5XTfUs08" class="btn btn-success">Read More</a>
+      <div class="row" data-aos="fade-up" data-aos-delay="80">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
+            <h3>Bantu and African language studies</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>Phonology and morpho-syntax</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #e80368;"></i>
+            <h3>language description and theory</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #31e803;"></i>
+            <h3>linguistic variation</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3>language and development</h3>
+          </div>
         </div>
       </div>
-    </div><!-- End testimonial item -->
+    </div><!-- End Interests -->
 
-    <div class="swiper-slide">
-      <div class="testimonial-item">
-        <p>
-          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-          I am currently working on phonological and morpho-syntactic micro-variation patterns of closely related languages and language varieties in Malawi. I am also working on a project which is reinventing Malawian folktales for environment and climate change communication.
-          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="https://www.futureafrica.science/index.php/profile/atikonda-mtenje-mkochi-840" class="btn btn-success">Read More</a>
-        </div>
+    <!-- ======= Recent Posts ======= -->
+    <div class="testimonials container">
+
+      <div class="section-title">
+        <h2>Recent Posts</h2>
       </div>
-    </div><!-- End testimonial item -->
 
-    <div class="swiper-slide">
-      <div class="testimonial-item">
-        <p>
-          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-          Cilambya is a variety that is on a dialect continuum with Cisukwa and Cindali. It is also a cross border variety that is spoken in Malawi, Tanzania and Zambia. It was classified as belonging to Zone M by Guthrie (1967/71).
-          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="https://www.researchgate.net/publication/331630131_A_grammatical_sketch_of_Cilambya_The_Malawian_variant" class="btn btn-success">Read More</a>
-        </div>
-      </div>
-    </div><!-- End testimonial item -->
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
 
-    <div class="swiper-slide">
-      <div class="testimonial-item">
-        <p>
-          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-         Atikonda Mtenje-Mkochi from Malawi is speaking on climate change in Malawi and the addressing of the issue to children. Project is trying to do that by using folk tales from Malawi #humanities_2020
-          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        <div class="d-flex align-items-center justify-content-center">
-          <a href="https://twitter.com/german_u15/status/1171767738240516101" class="btn btn-success">Read More</a>
-        </div>
-      </div>
-    </div><!-- End testimonial item -->
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <!-- <h3 class="text-center">African Culture</h3> -->
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Southern African Linguistics Network online seminar on 20 August 2021 by Dr Atikonda Mtenje-Mkochi (MUST): Aspects of phonology of Cinyiha and the linguistic relationship with its neighbouring languages.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.youtube.com/watch?v=3TR5XTfUs08" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
 
-    <!-- <div class="swiper-slide">
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                I am currently working on phonological and morpho-syntactic micro-variation patterns of closely related languages and language varieties in Malawi. I am also working on a project which is reinventing Malawian folktales for environment and climate change communication.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.futureafrica.science/index.php/profile/atikonda-mtenje-mkochi-840" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Cilambya is a variety that is on a dialect continuum with Cisukwa and Cindali. It is also a cross border variety that is spoken in Malawi, Tanzania and Zambia. It was classified as belonging to Zone M by Guthrie (1967/71).
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.researchgate.net/publication/331630131_A_grammatical_sketch_of_Cilambya_The_Malawian_variant" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Atikonda Mtenje-Mkochi from Malawi is speaking on climate change in Malawi and the addressing of the issue to children. Project is trying to do that by using folk tales from Malawi #humanities_2020
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <div class="d-flex align-items-center justify-content-center">
+                <a href="https://twitter.com/german_u15/status/1171767738240516101" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <!-- <div class="swiper-slide">
       <div class="testimonial-item">
         <p>
           <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -638,9 +638,9 @@ if (isset($_GET['blog_id'])) {
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <h2 class="entry-title">
+                  <h6 class="entry-title">
                     <a href="index.php?blog_id=<?php echo $rw['blog_id'] ?>"><?php echo $rw['title'] ?></a>
-                  </h2>
+                  </h6>
 
                   <div class="entry-meta">
                     <div class="row mb-2">
@@ -676,7 +676,7 @@ if (isset($_GET['blog_id'])) {
           <div class="blog-pagination mt-3">
             <ul class="justify-content-center row" style="list-style-type: none;">
               <?php for ($b = 1; $b <= $a; $b++) {  ?>
-                <li class="col"><a href="index.php?page=<?php echo $b; ?>" class="btn btn-success"><?php echo $b . " "; ?></a></li>
+                <li class="col"><a href="index.php?page=<?php echo $b; ?>" class="btn btn-primary"><?php echo $b . " "; ?></a></li>
               <?php } ?>
             </ul>
           </div>
@@ -687,7 +687,7 @@ if (isset($_GET['blog_id'])) {
 
           <div class="sidebar">
 
-            <h3 class="sidebar-title">Categories</h3>
+            <h5 class="sidebar-title">Categories</h5>
             <div class="sidebar-item categories">
               <ul style="list-style-type: none;">
                 <?php
@@ -703,7 +703,7 @@ if (isset($_GET['blog_id'])) {
               </ul>
             </div><!-- End sidebar categories-->
 
-            <h3 class="sidebar-title">Recent Posts</h3>
+            <h5 class="sidebar-title">Recent Posts</h5>
             <div class="sidebar-item recent-posts">
               <?php
               $row = $blog->viewBlogWithLimit(0, 4);
@@ -716,8 +716,8 @@ if (isset($_GET['blog_id'])) {
                     <img src="img/blog/<?php echo $rw['image'] ?>" width="100%" height="60px" alt="">
                   </div>
                   <div class="col-9">
-                    <h5><a href="index.php?blog_id=<?php echo $rw['blog_id'] ?>"><?php echo $rw['title'] ?></a></h6>
-                      <time datetime="2020-01-01"><?php echo date("M d, Y", $date) ?></time>
+                    <h6><a href="index.php?blog_id=<?php echo $rw['blog_id'] ?>"><?php echo $rw['title'] ?></a></h6>
+                    <time datetime="2020-01-01"><?php echo date("M d, Y", $date) ?></time>
                   </div>
                 </div>
               <?php } ?>
@@ -785,7 +785,7 @@ if (isset($_GET['blog_id'])) {
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="contactform.php" method="post" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -797,13 +797,8 @@ if (isset($_GET['blog_id'])) {
         <div class="form-group mt-3">
           <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
         </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+        <div class="form-group mt-3 mb-3">
+          <textarea class="form-control" id="editor" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
       </form>
@@ -815,7 +810,6 @@ if (isset($_GET['blog_id'])) {
     Designed by <a href="https://dreamcodemw.com">DreamCodeMw</a>
   </div>
 
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -824,7 +818,7 @@ if (isset($_GET['blog_id'])) {
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!--Main JS File -->
   <script src="assets/js/main.js"></script>

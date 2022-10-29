@@ -217,7 +217,21 @@ if (isset($_POST['submit'])) {
     <script>
         ClassicEditor
             .create(document.querySelector('#edit'), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+                toolbar: {
+                    items: [
+                        'heading', '|',
+                        'fontfamily', 'fontsize', '|',
+                        'alignment', '|',
+                        'fontColor', 'fontBackgroundColor', '|',
+                        'bold', 'italic', 'strikethrough', 'underline', 'subscript', 'superscript', '|',
+                        'link', '|',
+                        'outdent', 'indent', '|',
+                        'bulletedList', 'numberedList', 'todoList', '|',
+                        'code', 'codeBlock', '|',
+                        'insertTable', 'blockQuote', '|',
+                        'undo', 'redo'
+                    ]
+                }
             })
             .then(editor => {
                 window.editor = editor;
