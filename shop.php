@@ -136,6 +136,7 @@ $profile = new ProfileContr;
                                             <p><?php echo $rw['plant_description'] ?></p>              
                                     </div>
                                 </div>
+                                <hr>
                             <?php
                             }
 
