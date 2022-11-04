@@ -20,7 +20,7 @@ if (isset($_GET['blog_id'])) {
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dr. Atikonda Mtenje Mkochi</title>
+  <title>Dr. Atikonda Mtenje-Mkochi</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@ if (isset($_GET['blog_id'])) {
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.php">DR A. M. MKOCHI</a></h1>
+      <h1><a href="index.php">DR ATIKONDA MTENGE-MKOCHI</a></h1>
 
       <h2>
         <div class="hero-container" data-aos="fade-in">
@@ -88,7 +88,7 @@ if (isset($_GET['blog_id'])) {
     <div class="about-me container">
 
       <div class="section-title">
-        <h2>Dr. Atikonda Mtenje Mkochi</h2>
+        <h2>Dr. Atikonda Mtenje-Mkochi</h2>
         <p>Learn More</p>
       </div>
 
